@@ -1,0 +1,35 @@
+Variables are containers for storing data values.
+The value of a variable can change throughout the program.
+
+Declaring a variable is as simple as using the keyword var.
+Which would look like this:
+
+var x = 10;
+
+But why write code that is never going to be executed. Isn’t that a waste of time?
+Not at all! Comments are a good idea, especially ones relating to large functions,
+as they help make our code more readable for others. So be kind, and comment!
+
+What if we have more to say?
+
+If we want to create a multi-line comment, we write it between /*and */
+Like this:
+/* this code creates an alert box */
+
+Booleans
+
+Not just fun to say, Booleans in JavaScript serve a useful function by
+letting you have one of two values, either true or false.
+
+So when you need a data type that can only have one of two possible values,
+like Yes/No, on/off or true/false, look no further than Mr Boolean.
+
+Increment ++
+The increment operator increases the numeric value of its operand by 1. When placed
+before the operand, it’ll return the incremented value. When placed after it,
+it’ll return the original value and then increments the operand.
+
+Decrement --
+The decrement operator decreases the numeric value of its operand by 1.
+When placed before the operand, it’ll return the decremented value. When placed
+after the operand, it’ll return the original value and then decrements the operand.
