@@ -5,3 +5,7 @@ var isAdult = (age < 18) ? "Too young" : "Old enough";
 // "Too young". Otherwise the value of isAdult will be "Old enough".
 
 console.log(isAdult)
+
+var my_age = 21
+var her_age = 22
+my_age > her_age ? console.log("Perfect") : console.log("Not Perfect")

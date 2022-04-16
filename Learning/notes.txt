@@ -33,3 +33,13 @@ Decrement --
 The decrement operator decreases the numeric value of its operand by 1.
 When placed before the operand, it’ll return the decremented value. When placed
 after the operand, it’ll return the original value and then decrements the operand.
+
+Switch
+
+
+But what if you need to test for multiple conditions?
+In those cases, writing if else statements for each condition might not be
+the best solution.
+
+Instead, we can use the switch statement to perform different actions based
+on different conditions.
