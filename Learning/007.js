@@ -23,3 +23,11 @@ function person (name, age, color) {
 
 var Muchendu = new person ("Stephen", 18, "Yellow")
 console.log(Muchendu.age)
+
+
+var lion = {
+    name: "Simba",
+    age: 3
+}
+
+console.log(lion.name)
