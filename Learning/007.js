@@ -9,3 +9,5 @@ var y = person['age'];
 
 console.log(x)
 console.log(y)
+
+console.log(person.name.length)
