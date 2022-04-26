@@ -14,10 +14,17 @@
         var pos = 0;
         // Our box element
         var box = document.getElementById("box");
+        // The Interval Method
+        t = setInterval(move, 500)
 
         function move() {
-            pos += 1;
+            if (pos >= 150){
+                clearInterval(t)
+            }
+            else{
+            pos += 2;
             box.style.left = pos + "px";
+            }
         }
     </script>
 </html>
