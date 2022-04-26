@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		  <button id="demo">Start</button>
+	</body>
+    <img src="https://ca.slack-edge.com/T03ATQT9B5K-U03BLDZ87UG-a60d82ed5ee8-512">
+    <script>
+        var btn = document.getElementById("demo");
+        btn.addEventListener("click", myFunction);
+
+        function myFunction() {
+            alert(Math.floor(Math.random() * 10));
+            btn.removeEventListener("click", myFunction);
+        }
+    </script>
+</html>
