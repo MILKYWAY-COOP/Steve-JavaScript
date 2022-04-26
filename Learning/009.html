@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="001.css">
+		<title>Page Title</title>
+	</head>
+	<body>
+		<div id="container">
+            <div id="box"> </div>
+        </div>
+	</body>
+    <script>
+        // Starting position
+        var pos = 0;
+        // Our box element
+        var box = document.getElementById("box");
+
+        function move() {
+            pos += 1;
+            box.style.left = pos + "px";
+        }
+    </script>
+</html>
