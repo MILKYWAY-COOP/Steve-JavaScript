@@ -4,10 +4,21 @@
             <title>Document Object Model</title>
         </head>
         <body>
-            <p id = "demo">Testing the Document Object Model</p>
+            <h1 class="Demo">Testing 1, 2</h1>
+            <h2 class="Demo">Testing 3, 4</h2>
+            <h3 id = "demo">If you can read this something is wrong</h3>
+            <p>Test paragraph 1</p>
+            <p>Test paragraph 2</p>
+            <p>Test paragraph 3</p>
             <script>
-                var element = document.getElementById("demo");
-                element.innerHTML = "If you can read this all is Good";
+                var elem2 = document.getElementsByClassName("Demo")
+                elem2[1].innerHTML = "Testing 5, 6";
+                var arr = document.getElementsByTagName("p");
+                var elem1 = document.getElementById("demo");
+                elem1.innerHTML = "If you can read this all is Good";
+                for (var x = 0; arr.length; x++) {
+                    arr[x].innerHTML = "Reading this? All is good";
+                }
             </script>
         </body>
     </html>
