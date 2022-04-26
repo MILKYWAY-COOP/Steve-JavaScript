@@ -1,2 +1,3 @@
-# Steve-JavaScript
-My JavaScript learning files
+### Steve-JavaScript
+
+`My JavaScript learning files`
