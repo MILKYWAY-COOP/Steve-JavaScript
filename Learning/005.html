@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html style="background-color: aqua;">
+    <head>
+        <title>Manipulating style using JS</title>
+    </head>
+    <body>
+        <div style="width: 200px;" id = "demo">
+            Some Content
+        </div>
+    </body>
+    <script>
+        // Manipulating style
+        var x = document.getElementById("demo");
+        x.style.color = "rgb(150, 120, 100)";
+        x.style.width = "100 px"
+
+        // Creating Elements
+        var p = document.createElement("p");
+        var node = document.createTextNode("Some new text");
+        //appending the text to the paragraph
+        p.appendChild(node);
+
+        var div = document.getElementById("demo");
+        //adding the paragraph to the div
+        div.appendChild(p);
+    </script>
+</html>
