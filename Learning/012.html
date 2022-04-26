@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link type="stylesheet" href="002.css">
+		<title>Page Title</title>
+	</head>
+	<body>
+        <div>
+	    <button onclick="prev()"> Prev </button>
+	    <img src="imgs/001.png" width="200px" height="100px" id="slider" >
+        <button onclick="next()"> Next </button>
+        </div>
+        <script>
+            var images = ['imgs/001.png', 'imgs/002.png', 'imgs/003.png', 'imgs/004.png',
+            'imgs/005.png', 'imgs/006.png', 'imgs/007.png', 'imgs/008.png', 'imgs/009.png',
+            'imgs/010.png',]
+            var num = 0;
+            function next() {
+                var slider = document.getElementById('slider');
+                num++;
+                if(num >= images.length) {
+                    num = 0;
+                }
+                slider.src = images[num];
+            }
+            function prev() {
+                var slider = document.getElementById('slider');
+                num--;
+                if(num < 0) {
+                    num = images.length-1;
+                }
+                slider.src = images[num];
+            }
+        </script>
+	</body>
+</html>
