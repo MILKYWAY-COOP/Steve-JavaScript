@@ -94,3 +94,15 @@ Map preferable in certain cases:
 of key/value pairs.
 The size property returns the number of key/value pairs in a map.
 
+Methods
+set(key, value) Adds a specified key/value pair to the map. If the specified key already exists,
+value corresponding to it is replaced with the specified value.
+get(key) Gets the value corresponding to a specified key in the map. If the specified key
+doesn't exist, undefined is returned.
+has(key) Returns true if a specified key exists in the map and false otherwise.
+delete(key) Deletes the key/value pair with a specified key from the map and returns true.
+Returns false if the element does not exist.
+clear() Removes all key/value pairs from map.
+keys() Returns an Iterator of keys in the map for each element.
+values() Returns an Iterator of values in the map for each element.
+entries() Returns an Iterator of array[key, value] in the map for each element.
