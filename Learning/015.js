@@ -15,3 +15,7 @@ function containsAll(arr) {
 let x = [2, 4, 6, 7];
 console.log(containsAll(x));
 console.log(containsAll(x, 6, 4, 9));
+
+let nums = [3, 4, 5];
+let all = [1, 2, ...nums, 6];
+console.log(all);
