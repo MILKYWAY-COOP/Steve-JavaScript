@@ -1,8 +1,7 @@
-function printTime() {
-    var d = new Date();
-    var hours = d.getHours();
-    var mins = d.getMinutes();
-    var secs = d.getSeconds();
-    return console.log(hours+":"+mins+":"+secs);
-}
-setInterval(printTime, 1000)
+var param = 'size';
+var config = {
+    [param]: 12,
+    ['mobile' + param.charAt(0).toUpperCase() + param.slice(1)]: 4
+};
+
+console.log(config.mobileSize); // 4
