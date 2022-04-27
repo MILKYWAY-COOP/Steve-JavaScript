@@ -106,3 +106,17 @@ clear() Removes all key/value pairs from map.
 keys() Returns an Iterator of keys in the map for each element.
 values() Returns an Iterator of values in the map for each element.
 entries() Returns an Iterator of array[key, value] in the map for each element.
+
+ES6 Set
+A Set object can be used to hold unique values (no repetitions are allowed).
+A value in a set can be anything (objects and primitive values).
+The syntax new Set([iterable]) creates a Set object where iterable is an array or
+any other iterable object of values.
+The size property returns the number of distinct values in a set.
+
+Methods
+add(value) Adds a new element with the given value to the Set.
+delete(value) Deletes a specified value from the set.
+has(value) Returns true if a specified value exists in the set and false otherwise.
+clear() Clears the set.
+values() Returns an Iterator of values in the set.
