@@ -1,3 +1,5 @@
 There are two ways to declare variables in ECMAScript;
 1. Using const keyword. Note that when using const, the variables
 value cannot change over time.
+2. Using the let keyword. When using let, the varible can only
+be used in one scope. 
