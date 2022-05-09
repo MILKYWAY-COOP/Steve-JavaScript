@@ -1,7 +1,7 @@
 // Classes
 //We could create a function and add methods on the function
 //object using the prototype
-//in JS functions are objects - inherit the behaviour of object
+//in JS functions are objects - inherit the behavior of object
 //whenever you create an object, the prototype object is also
 //created behind the scene
 
