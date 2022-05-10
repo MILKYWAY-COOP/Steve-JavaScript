@@ -1,0 +1,47 @@
+/*hey guys if you have doubt how absolute property works, it works in way that 
+it  comes out of the 'document flow' i.e) just consider two div elements in
+which each a size of a box, say that you need two place the second box over the 
+top box simple just give it absolute position such that the second div 
+positioned itself with respect to the browser window, you can move the element 
+anywhere in the window*/
+/* Wondering how to use absolute property within a div simple?
+Say you have a div inside a div. most case scenario */
+/* putting first div relative and mentioning second div absolute will do the job
+In my early days of css, I wonder the position property with relative and no top
+bottom, right left property with it. One day I realized it.
+highly recommend you to run the following code two know the difference */
+.b {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 14, 14);
+    position: relative;
+}
+
+/* .b1 {
+    height: 100px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: azure;
+}  */
+/*do it and see*/
+
+.b1 {
+    height: 100px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rosybrown;
+}
+
+/* 1st with reference to the first div
+2nd to reference to the object window
+Wondering Why i use div for all my tags, simple due its flexibility to be an
+command container  */
