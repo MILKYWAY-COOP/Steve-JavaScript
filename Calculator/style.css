@@ -52,4 +52,13 @@ button {
     margin: 8px;
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.equal {
+    width: 115px;
+    border-radius: 40px;
+    background-color: rgb(181, 213, 202);
+    box-shadow: -5px -5px 12px rgb(196, 238, 224), 
+                5px 5px 12px rgb(0,0,0,.16);
 }
