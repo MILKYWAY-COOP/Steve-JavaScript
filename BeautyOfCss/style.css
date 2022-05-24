@@ -26,9 +26,7 @@
 }
 
 .box2:hover {
-  width: 20px;
-  height: 20px;
-  transform: scale(12) skew(-20deg);
+  transform: scale(1.05);
 }
 
 .box1 {
