@@ -5,6 +5,7 @@
   background-color: black;
   height: 100%;
   width: 100%;
+  flex-direction: column;
 }
 
 .box1 {
@@ -13,6 +14,7 @@
   background-color: aquamarine;
   margin: 10px;
   border: 5px solid white;
+  border-radius: 5%;
 }
 
 .box2 {
@@ -24,5 +26,48 @@
 }
 
 .box2:hover {
-  transform: scale(2, 2);
+  width: 20px;
+  height: 20px;
+  transform: scale(12) skew(-20deg);
+}
+
+.box1 {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0px;
+    width: 0px;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 15%;
+  }
+}
+
+h1 {
+  color: aliceblue;
+  animation-duration: 2s;
+  animation-name: headingAnimation;
+}
+
+@keyframes headingAnimation {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
