@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="my-form">
+      <label>
+        First Name:
+        <input type="text" name="name" id="fname"/>
+      </label>
+      <label>
+        Last Name:
+        <input type="text" name="name" id="lname"/>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+  <script>
+    document
+      .getElementById('my-form')
+      .addEventListener('submit', function (event) {
+        event.preventDefault();
+        const firstName = document.getElementById('fname').value;
+        const lastName = document.getElementById('lname').value;
+        submitViaAPI({
+          firstName: firstName,
+          lastName: lastName
+        });
+      });
+
+    function submitViaAPI(data) {
+      console.log(data);
+      console.log('Submitted!');
+    }
+  </script>
+</html>
