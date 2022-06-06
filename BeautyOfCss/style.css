@@ -1,3 +1,8 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -11,9 +16,9 @@
 .box1 {
   width: 150px;
   height: 150px;
-  background-color: aquamarine;
+  background-color: var(--blue);
   margin: 10px;
-  border: 5px solid white;
+  border: 5px solid var(--white);
   border-radius: 5%;
 }
 
@@ -47,7 +52,7 @@
 }
 
 h1 {
-  color: aliceblue;
+  color: var(--blue);
   animation-duration: 2s;
   animation-name: headingAnimation;
 }
